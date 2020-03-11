@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+//Esta es la carpeta donde se importa todo
+//primero mixins
+//después variables
+//fuente
+
+@import "mixins/rem";
+@import "global/variables";
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800&display=swap');
+
+@import "global/reset";
+@import "global/base";
+@import "form";
+
+@import "header";
